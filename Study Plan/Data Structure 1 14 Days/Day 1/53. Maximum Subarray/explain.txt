@@ -1,0 +1,13 @@
+The problem : https://leetcode.com/problems/maximum-subarray/
+
+To find the largest contiguous subarray (Kadance's algorithm)
+THE IDEA: 
+-> use a varible to hold sum and drop every sum that is lower than your current
+* start with the first element
+* loop through the rest of the array
+* calculate the max between current and the first element
+* use max of the sum or the current element
+* return the biggest contigous number
+
+Time Complexity:  O(n) from looping through array
+Space Complexity: O(1) creating a const varibles

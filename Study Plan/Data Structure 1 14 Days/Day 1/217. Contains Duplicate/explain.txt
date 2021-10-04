@@ -1,0 +1,11 @@
+The problem : https://leetcode.com/problems/contains-duplicate/
+
+To check duplicate using hashSet
+* HashSet garunteed item only inserted once
+* insert items to hashset 
+* check if item inserted before
+* once find a duplicate exit from loop
+* return result
+
+Time Complexity:  O(n) from looping through array
+Space Complexity: O(n)
