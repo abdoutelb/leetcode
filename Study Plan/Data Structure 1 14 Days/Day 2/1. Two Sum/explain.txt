@@ -1,0 +1,12 @@
+The problem : https://leetcode.com/problems/two-sum/
+
+To get the exact sum
+* HashMap holds unique value with its key
+* adding first element with its key of 0
+* loop through items
+* check if the reminder of the target minus the current loop element exists in hashMap
+* if yes return the index of this item and index of current
+* if not adding this key with this value to hashMap
+
+Time Complexity:  O(n) from looping through array (searching in map is o(1))
+Space Complexity: O(n) for creating a extended HashMap
